@@ -18,6 +18,6 @@ Pressure
 Weather conditions
 Description of the weather
 
-Try it out here:
+Try it out here: https://oliwier-dev.github.io/Weather-app-API/
 
 Idea: https://roadmap.sh/projects/weather-app
