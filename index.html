@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <main id="main" class="m-12">
+        <form id="form" autocomplete="off">
+            <input type="text" id="userLocationInput" placeholder="Write the location" class="border border-gray-300 p-3 rounded-xl shadow-sm focus:border-blue-500 focus:ring-blue-500 outline-none">
+            <button id="submit" class="bg-blue-500 py-3 px-5 rounded-xl text-white font-semibold shadow-md transform hover:scale-105 transition duration-300 ease-in-out shadow-lg">Submit</button>
+        </form>
+        <p id="choosedLocation">Your choosed location: </p>
+        <div class="bg-gray-100 p-2 rounded-lg border border-gray-300">
+            <p id="temp"></p>
+            <p id="feelsLike"></p>
+            <p id="windSpeed"></p>
+            <p id="humidity"></p>
+            <p id="pressure"></p>
+            <p id="conditions"></p>
+            <p id="description"></p>
+        </div>
+    </main>
+</body>
+</html>
