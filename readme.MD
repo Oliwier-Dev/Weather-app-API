@@ -21,3 +21,6 @@ Description of the weather
 Try it out here: https://oliwier-dev.github.io/Weather-app-API/
 
 Idea: https://roadmap.sh/projects/weather-app
+
+
+Note: The code may not work because I did not provide my private API.
