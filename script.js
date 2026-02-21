@@ -16,7 +16,7 @@ const ui = {
 
 // API Stuff
 
-const API_KEY = 'ML4K3QMEQ4PPCAB3FKDURYAZL';
+const API_KEY = '';
 let city = ''; //
 const unitGroup = 'metric';
 const contentType = 'json';
